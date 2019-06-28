@@ -8,7 +8,7 @@ def quiz1results(answer1, answer2):
         level = 0
         text = "Great job!"
         image = "https://media2.giphy.com/media/cEODGfeOYMRxK/giphy.gif"
-    if int(answer1) + int(answer2) <= 14 and int(answer1) + int(answer2) >= 10:
+    elif int(answer1) + int(answer2) <= 14 and int(answer1) + int(answer2) >= 10:
         level = 1
         text = "It will be pretty easy for you to convert to vegetariansism."
         image = "https://ecommerceinsiders.com/wp-content/uploads/2014/12/press-the-easy-button.jpg"
