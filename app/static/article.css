@@ -1,0 +1,118 @@
+body {
+    background-color:#000000;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:  400px 400px;
+}
+
+.chickens {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color:#ffffff;
+    color:black;
+    height: 100%;
+    margin: 0px;
+    font-family:Helvetica;
+    font-weight:100;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.cows {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color:#ffffff;
+    background-size:100%;
+    color:black;
+    height: 100%;
+    margin: 0px;
+    font-family:Helvetica;
+    font-weight:150;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.pigs {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color:#ffffff;
+    color:black;
+    height: 100%;
+    margin: 0px;
+    font-family:Helvetica;
+    font-weight:150;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.turkeys {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color:#ffffff;
+    color:black;
+    height: 100%;
+    margin: 0px;
+    font-family:Helvetica;
+    font-weight:150;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.chickpic {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-image: url("chickpic.jpg");
+    background-size:cover;
+}
+
+.cowpic {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-size:cover;
+    background-image: url("cowpic2.jpg")
+}
+
+.pigpic {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url("pigpic.jpg");
+    background-size:cover;
+}
+
+.turkpic {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url("turkpic3.jpg");
+    background-size:cover;
+}
+
+
+
+

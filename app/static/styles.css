@@ -1,0 +1,80 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+
+#wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 230px 50px 50px 50px auto;
+}
+
+#level {
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align:right;
+    font-family:Helvetica;
+    font-weight:100;
+    text-transform:uppercase;
+    background-color:#9FB5FF;
+}
+
+#level2 {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end:2;
+    font-size:200px;
+    text-align:right;
+    font-family:Helvetica;
+    font-weight:800;
+    text-align:left;
+    vertical-align:top;
+    background-color:#E2FF9F;
+}
+
+#level2 p {
+    margin:0;
+}
+
+#gg {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:3;
+    text-align:left;
+    font-family:Helvetica;
+    font-weight:100;
+}
+
+#ffff {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end:4;
+    text-align:left;
+    font-family:Helvetica;
+    font-weight:100;
+}
+
+#wwww {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end:5;
+    text-align:left;
+    font-family:Helvetica;
+    font-weight:100;
+}
+
+#image1 {
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end:5;
+}
+
+#image2 {
+    width:100px;
+}
